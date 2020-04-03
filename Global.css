@@ -1,0 +1,16 @@
+nav, .drop{
+    background-color:rgb(26, 24, 29);
+    font-weight: bold;
+}
+}
+.hehe2{
+  transition-duration: 0.4s;
+  color:whitesmoke;
+}
+.alb{
+  color:rgb(136, 99, 99);
+}
+.hehe2:hover{
+  color:white;
+  font-weight: bolder;
+}

@@ -1,0 +1,30 @@
+.box{
+    border:7px solid rgb(36, 132, 79);
+    background-color: rgb(232, 255, 232);
+  }
+ 
+  .lel{
+    transition-duration: 0.3s;
+  }
+  .lel:hover{
+    font-weight: bolder;
+  }
+  img{
+    transition-duration:1s;
+    border-radius: 50%;
+  }
+  img:hover{
+  
+    border-radius: 6%;
+  }      
+  .cerc{
+    transition-duration:1s;
+    border-radius: 6%;
+    background-image: linear-gradient(to right,  rgb(232, 255, 232), lightgreen);
+    border:7px solid rgb(36, 132, 79);
+  }
+  .cerc:hover{
+    border-radius: 35%;
+    transform:rotateZ(180deg);
+  }
+}

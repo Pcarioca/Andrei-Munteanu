@@ -1,0 +1,10 @@
+.white{
+    color:rgb(255, 255, 255);
+  }
+  .linie{
+    flex-direction:row;
+  }
+  .active{
+    font-weight:bold;
+  }
+  
