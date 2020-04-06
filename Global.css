@@ -1,6 +1,7 @@
 nav, .drop{
     background-color:rgb(26, 24, 29);
     font-weight: bold;
+    
 }
 }
 .hehe2{
@@ -8,7 +9,7 @@ nav, .drop{
   color:whitesmoke;
 }
 .alb{
-  color:rgb(136, 99, 99);
+  color:rgb(136, 99, 99);transition-duration: 0.2s;
 }
 .hehe2:hover{
   color:white;
