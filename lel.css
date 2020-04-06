@@ -6,6 +6,17 @@
     color:wheat;
     font-size:130%;
 }
+.onclick{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 150%;
+  color: #eee;
+  background-color: blue;
+  padding: 40px 50px;
+  text-align:center;
+  display:inline-block;
+
+}
 html  {
     background: #000;
     font-family: 'Noto Serif', serif;
