@@ -19,21 +19,26 @@ function getN(){
 }
 function invers(){
     var H= document.getElementById("invers").value;
-   //AICI AM INCERCAT, NU A IESIT :<
-    // H=H*1;
-    //H=Math.floor(H);
-   // var inv=0;
-   // var c=0;
-   // while(H!=0){
-   //     c=H%10;
-   //     inv=c+inv;
-   //     H=H/10;
-   //
-   //}
-   //Asta e un algorintm pe care l-am gasit pe net care habar n-am ce face:))
+  
    H = H + "";
     inv=H.split("").reverse().join("");
 
     
     document.getElementById("rezultatInvers").innerHTML=inv;
 }
+var c=1;
+function start(){
+    if(c==1){
+        setTimeout(alertu, 10000);
+    }
+    document.getElementById("spam").innerHTML=c;
+    c++;
+}
+function alertu(){
+    var d=c-1;
+    alert("Ai putut apasa de "+d+" ori in 10 secunde.");
+    c=1;
+    document.getElementById("spam").innerHTML="Apasa-ma de cate ori poti in 10 secunde";
+}
+
+document.getElementById("spam").addEventListener("click",start);
